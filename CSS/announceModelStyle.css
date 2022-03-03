@@ -1,0 +1,33 @@
+.popup2 {
+    
+    position: absolute;
+    margin: -28% 30% 0 20%;
+    z-index: 200;
+    width: 40%;
+    height: auto;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+#formContainer2{
+    
+    margin: auto;
+    width: 60%;
+    height: 80%;
+    
+}
+label{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight:500;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+input[type="password"]{
+    padding: 20px;
+}

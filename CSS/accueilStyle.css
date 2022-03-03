@@ -1,0 +1,277 @@
+body{
+    z-index: 1;
+    margin: 0 5% 0 5%;
+    padding:0 5% 0 5%;
+}
+header>div{
+    padding: 0 20px 0 20px;
+    display: inline-flex;
+    width: 100%;
+}
+header>div>a>img{
+    height: 80px;
+    width: 80px;
+}
+.visit{
+    margin-left: 75%;
+}
+.user{
+    margin-left: 48%;
+    width: 100px;
+}
+
+header>div>button {
+    font-family: 'Montserrat';
+    font-size: 15px;
+    color: white;
+    margin: auto 5px auto 0;
+    height: 38px;
+    width: 120px;
+    border: 2px solid whitesmoke;
+    border-radius: 50px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-clip: padding-box;
+    position: relative; 
+    background-image: linear-gradient(90deg, aqua,blue, rgb(57, 162, 204),  rgb(8, 8, 139));
+    cursor: pointer;
+    background-size: 300% 100%;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+header>div>button:hover {
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+nav{
+    height:60px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-image: linear-gradient(90deg, aqua,blue, rgb(57, 162, 204),  rgb(8, 8, 139));
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    z-index: 100;
+    margin-bottom: 5px;
+}
+nav ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+    
+}
+nav ul li{
+    margin: 8px 15px 0px 15px;
+    padding: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    
+    
+}
+nav ul li a:hover{
+    background:rgb(14, 80, 223);
+    border-radius: 50px;
+    color: white;
+}
+.carousel-inner,.carousel-item{
+    height: 50%;
+}
+.carousel-item img{
+    height: 400px;
+}
+footer ul{
+    margin:0 30% 0 30%;
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+    align-items: space-between;
+}
+
+footer ul li{
+    margin-left: 10px;
+}
+footer ul li a:hover{
+    color: aqua;
+}
+#fromContanier{
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+}
+#fromContanier p{
+    font-family: 'Montserrat';
+    color: blue;
+    font-size:x-large;
+    font-weight: bold;
+    
+}
+.form-grp{
+    display: inline-flex;  
+}
+input,#annulerBtn,select,.postuler{
+    font-family: 'Montserrat';
+    height: 50px;
+    color: white;
+    margin: auto 15px auto 0;
+    border-radius: 50px;
+    
+}
+input[type="submit"],#annulerBtn,.postuler{
+    font-weight: bold;
+    font-size: 16px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 150px;
+    background-clip: padding-box;
+    position: relative; 
+    background-image: linear-gradient(90deg, aqua,blue, rgb(57, 162, 204),  rgb(8, 8, 139));
+    border: 2px solid whitesmoke;
+    cursor: pointer;
+    background-size: 300% 100%;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+
+}
+input[type="submit"]:hover,#annulerBtn:hover,.postuler:hover{
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out; 
+}
+input[type="text"], input[type="password"],input[type="file"],select{
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    width: 300px;
+    padding-left: 20px;
+    border: 2px solid blue;
+}
+input[type="text"]:hover, input[type="password"]:hover,.form-elem2>select:hover,input[type="password"]:hover{
+    border: 2px solid aqua;
+}
+#announces{
+    margin-top:30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: space-between;
+}
+#announces>div{
+    padding:5px 10px 5px 10px;
+    width: 20%;
+    border: 2px solid blue;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    display: inline-block;
+}
+#announces>div:hover{
+    border-color: aqua;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    
+}
+#announces>div>p:first-child{
+    font-family: 'Montserrat';
+    color: blue;
+    font-size:18px;
+    font-weight:bold;
+}
+#announces>div>img{
+    margin-top: 5px;
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+}
+#announces>div>p:nth-child(2){
+    font-family: 'Montserrat';
+    color: black;
+    font-size:18px;
+    font-weight:bold;
+}
+
+h2{
+    font-family: 'Montserrat';
+    color: blue;
+    font-size:x-large;
+    font-weight: bold;
+    
+}
+.description{
+    width:100%;
+}
+.popup h2,.popup2 h2{
+    margin-top:5%;
+    margin-left: 45%;
+}
+.popup {
+    
+    position: absolute;
+    margin: -20% 10% 0 20%;
+    z-index: 300;
+    width: 40%;
+    height: 40%;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+#formContainer{
+    
+    margin: auto;
+    width: 60%;
+    height: 80%;
+    
+    z-index: 100;
+}
+.form-elem2{
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+
+}
+.form-elem2>input{
+    display: block;
+    
+}
+.form-elem2>input,.form-elem2>select{
+    width: 100%;
+    height: 38px;
+    
+}
+
+.logButtonContainer>input{
+    display: inline;
+    margin-top: 40px;
+}
+
+
+#logButton,#annulerBtn,#createButton{
+    font-weight: 400;
+    height:35px;
+    width:140px;
+    margin-left: 30px;
+    display: inline;
+}
+#annulerBtn{
+    margin-left:10px;
+}
+.form-grp2>a{
+    margin: 0px 0 0 40px;
+}
+.newsLog{
+    margin-top: 50px;
+}
